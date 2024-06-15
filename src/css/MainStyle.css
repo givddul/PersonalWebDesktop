@@ -1,0 +1,70 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('../img/rays-clouds.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  height: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.timer-button,
+.chat-button,
+.quiz-button,
+.memory-button {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.timer-button-image,
+.chat-button-image,
+.quiz-button-image,
+.memory-button-image {
+  border-radius: 20%;
+  width: 34px;
+  height: 34px;
+  display: block;
+  margin: auto;
+}
+
+.timer-button:hover,
+.chat-button:hover,
+.quiz-button:hover,
+.memory-button:hover {
+  transform: scale(1.1);
+}
+
+input[type="text"] {
+  border-radius: 25px;
+  padding: 10px;
+  width: 203px;
+  margin: 34px 0;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #555;
+}

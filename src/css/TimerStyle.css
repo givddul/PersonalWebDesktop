@@ -1,0 +1,59 @@
+
+#stopwatch-timer-container {
+  padding-top: 5%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  border: 2px solid rgba(126, 188, 255, 0.655);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+#stopwatch-start-button,
+#stopwatch-pause-button,
+#stopwatch-stop-button,
+#stopwatch-reset-button,
+#timer-start-button,
+#timer-stop-button {
+  margin: 20px auto;
+  padding: 5px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4c4c4c88;
+  color: white;
+  border-radius: 5px;
+}
+
+#stopwatch-start-button,
+#timer-start-button {
+  background-color: #00b30fd6;
+}
+
+#stopwatch-start-button:hover,
+#timer-start-button:hover {
+  background-color:  #03cb14;
+  color: white;
+}
+
+#stopwatch-stop-button,
+#timer-stop-button {
+  background-color: #d20000ca;
+}
+
+#stopwatch-stop-button:hover,
+#timer-stop-button:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+#stopwatch-display,
+#timer-display {
+  font-size: 2em;
+  margin: 10px 0;
+}

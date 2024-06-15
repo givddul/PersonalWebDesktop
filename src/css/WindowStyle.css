@@ -1,0 +1,48 @@
+.timer-window,
+.chat-window,
+.quiz-window,
+.memory-window {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  min-width: 700px;
+  max-width: 1000px;
+  min-height: 600px;
+  width: auto;
+  background: #000;
+  color: rgb(219, 219, 219);
+  padding: 0;
+  border-radius: 5px;
+  display: none;
+  resize: both;
+  overflow: auto;
+}
+
+.chat-window {
+  position: relative;
+  background: #e9e9e9;
+}
+
+.timer-window-header,
+.chat-window-header,
+.quiz-window-header,
+.memory-window-header {
+  background: #333;
+  color: rgb(184, 184, 184);
+  padding: 5px 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.close-button {
+  background: #ccc;
+  color: #333;
+  padding: 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-left: auto;
+}
