@@ -14,4 +14,6 @@ The Personal Web Desktop (PWD) is a single-page application that simulates a des
 ##
 ![alt text](src/public/img/A3-in-action.jpg)
 
-
+##
+### Credits
+This application was developed as part of a web programming course assignment at Linnaeus University.
